@@ -1,0 +1,200 @@
+@charset "utf-8";body{font-family:Nunito,open sans,Arial,sans-serif;background:#fff;font-weight:300;height:100%;margin:0;padding:0;color:#94a3a8}
+h1{font-size:50px;line-height:60px;margin:25px 0;font-weight:600}
+h3{font-size:30px;margin:10px 0;font-weight:600}
+h4{font-size:25px;margin:10px 0}
+h5{font-size:20px;font-weight:600;margin:15px 0;color:#384047}
+a{color:#5173bd}
+a:hover,a:focus{color:#5173bd}
+.btn-lg,.input-lg{border-radius:3px}
+.input-lg{height:35px;font-size:16px;}
+.btn-lg{padding:10px 28px;height:52px}
+.breath{margin:50px auto}
+.relative-block{position:relative}
+.form-group.last{margin-bottom:0}
+.re-assure{color:#aaa;text-align:center;margin-top:15px;margin-bottom:0;font-size:12px;font-style:italic;}
+.has-margin-top{margin-top:30px}
+.has-margin-top-lg{margin-top:40px}
+.has-margin-bottom-sm{margin-bottom:20px}
+
+
+/* imagen de fondo principal */
+.masthead{background-blend-mode:soft-light;
+position:relative;padding:30px 15px;color:#fff;text-align:center;
+/* text-shadow:0 1px 0 rgba(0,0,0,.1); */
+background-color:#0C662C;/*background-image:url(./imagen/10.jpg)*/;background-repeat:no-repeat;
+border-top:5px solid #069506;
+background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position-x:-px;}
+
+
+
+.masthead .container{animation:fadein 2s;-moz-animation:fadein 2s;-webkit-animation:fadein 2s;-o-animation:fadein 2s}
+@keyframes fadein{from{opacity:0;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);transform:translateY(-30px)}
+to{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
+}
+@-moz-keyframes fadein{from{opacity:0;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);transform:translateY(-30px)}
+to{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
+}
+@-webkit-keyframes fadein{from{opacity:0;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);transform:translateY(-30px)}
+to{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
+}
+@-o-keyframes fadein{from{opacity:0;-webkit-transform:translateY(-30px);-moz-transform:translateY(-30px);transform:translateY(-30px)}
+to{opacity:1;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
+}
+.logo{padding:10px 0;text-align:center}
+.section-title{text-align:center;margin-top:70px;margin-bottom:50px}
+.section-title h4{color:#94a3a8}
+.masthead .main-title{margin-bottom:0}
+.quick-features{text-align:left}
+.featues-single{margin-bottom:25px}
+.featues-single.last{margin-bottom:40px}
+.featues-single img{margin-right:20px;margin-top:8px}
+.featues-single h5{margin-bottom:5px;margin-left:50px; }
+.featues-single p{color:#a1b8e4;margin-left:50px;margin-bottom:0}
+.masthead .featues-single h5{color:#fff;}
+.signup-block{padding:20px;background:#fff;color:#535353;text-align:left;margin-bottom:25px;
+-webkit-box-shadow:0 0 25px rgba(0,0,0,.4);-moz-box-shadow:0 0 25px rgba(0,0,0,.4);box-shadow:0 0 25px rgba(0,0,0,.4);padding-right:29px;}
+
+@media(min-width:992px){
+.featues-single.last{margin-bottom:15px}
+.signup-block{position:absolute;width:100%;border-radius:12px;}
+}
+.as-seen-on{color:#3f74c6;font-weight:600;font-size:14px;padding:15px 0;border-bottom:1px solid #dfe4e9}
+.zigzag{margin:55px 0}
+.zigzag-lead{color:#595c60;font-size:22px;font-weight:600;margin-top:0}
+.zigzag p{line-height:1.5;font-size:16px}
+@media(max-width:992px){.zigzag-lead{margin-top:30px}
+}
+.footercta{padding:20px 0 80px;color:#fff;text-align:center;text-shadow:0 1px 0 rgba(0,0,0,.1);background-color:#0C662C;/*background-image:url(./imagen/10.jpg)*/;background-repeat:no-repeat;background-position:center center;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.footercta .section-title{margin-top:50px}
+.footercta .section-title h4{color:#b5b2df}
+.footercontent .madeby{text-align:center;line-height:2.7}
+.footercontent .copyinfo{text-align:right}
+@media(min-width:768px){.footercontent .copyinfo{line-height:2.7}
+}
+@media(max-width:991px){h1{font-size:35px;line-height:50px;margin:15px 0}
+.as-seen-on{text-align:center;margin-top:30px}
+.breath{margin:30px auto}
+}
+@media(max-width:767px){h1{font-size:30px;line-height:35px}
+h5{line-height:25px}
+.masthead{padding:40px 15px;background-attachment:scroll}
+.signup-block .form-title{font-size:20px}
+.input-lg{font-size:14px;height:35px}
+.zigzag-lead{text-align:left;margin-right:41px; }
+.zigzag p{text-align:left;padding-top:20px;}
+.footercontent{text-align:center}
+.footercontent .copyinfo{text-align:center}
+}
+@media(max-device-width:992px){.masthead{background-size:cover;background-attachment:scroll}
+}
+
+
+
+
+/* AGREGADOS MATIAS */
+
+
+
+.main-title{font-size:2.3em;line-height:1.2em;}
+.form-title{font-size:1.7em;}
+
+.itemform{border:1px solid #ccc; border-radius:3px;-webkit-box-shadow:none!important;box-shadow:none!important;border-color:#dcdcdc!important;margin-bottom:6px;margin-left:4px;height:42px!important; font-size:15px; background:#FFFFFF!important; }
+
+.featues-single p{color:#fff!important;}
+.tituloobrasocial{font-size:1.6em;font-weight:500!important;margin-bottom:-23px;line-height:1em;}
+ select{color:#0C0C0C!important;background:#FFFFFF!important;} 
+.footercta{ background-blend-mode:soft-light;}
+marquee img{max-height:85px;padding:4px; }
+.footercontent a{text-decoration:none!Important;color:#94a3a8;}
+
+
+
+
+
+/* color del placeholder */
+ ::-webkit-input-placeholder { color:#0C0C0C!important;   } /* WebKit */
+::-moz-placeholder { color:#0C0C0C!important;  } /* Firefox 19+ */
+
+  ::selection {	background:rgba(23,130,62,0.2);}
+ /* Para Firefox */
+::-moz-selection {	background:rgba(23,130,62,0.2);}
+
+  
+ /* configuracion para celular */
+ 
+ @media (max-width: 968px) {
+	.masthead .featues-single h5{color:#E2F8BA!important;}
+   .itemform{width:100%;} 
+ .ocultar{display:none!important;} 
+ .gototop{ font-size:1.4em!important; }
+ .signup-block{border-radius:12px;padding:12px; padding-right:20px;}
+.main-title{font-size:2em;margin-top:-23px; }
+.masthead{background-position-x:-285px; background-position-y:-120px;}
+.footercontent{margin-bottom:85px;}
+.logo>a>img{margin-left:-35px;}
+
+ }
+	 
+ 
+ 
+ 
+ 	/* configuracion para pantalla grande */
+	@media screen and (min-width:800px) {
+  .formizquierdo{margin-right:-10px;width:49%;}
+  .ocultarg{display:none;}
+  .as-seen-on{margin-top:-24px;margin-left:25px;padding-bottom:42px;font-size:1.1em;}
+  .quick-features{margin-top:-33px;}
+  .footercontent{margin-bottom:19px; }
+	}
+	
+	
+	
+	
+	
+	 
+	
+	
+	.botnaranja{background: rgb(30,87,153);
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(255,135,61,1) 0%, rgba(255,39,1,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(255,135,61,1) 0%,rgba(255,39,1,1) 100%);
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(255,135,61,1) 0%,rgba(255,39,1,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ff2701',GradientType=0 );
+text-decoration: none!important;
+color:#fff;  border:none!important;width:100%;font-weight:bold;margin-left:3px!important;margin-top:12px!important;font-size:1.6em;
+}
+.botnaranja:hover{transition:all 0.3s ease;opacity:0.8;color:#fff!important;}	
+	
+	
+	
+	 
+
+/* sacar border en el formulario */
+/* select,input{border-top:0px!important;border-left:0px!important;border-right:0px!important;border-radius:0px!important;} */
+ select{padding:6px!important;}
+ 
+ 
+ 
+ /* color verde en titulo */
+ 
+  .form-title{color:#069506;}
+.as-seen-on{color:#069506;}
+.pasosiconos{width:100%; margin-top:-20px; padding:8px;}
+
+
+
+
+/* configuracion iconos */
+
+
+.iconoct{max-width:75px; padding:5px;float:left;margin-left:-13px;}
+
+ @media (max-width: 968px) {
+ .iconoct{  padding:5px;float:left;margin-left:-13px;padding-right:11px;margin-top:-15px;}
+ .zigzag-lead{    }
+
+ }
+
+
+
+
+ 

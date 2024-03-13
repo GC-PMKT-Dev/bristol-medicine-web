@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function (){
         event.preventDefault();
         const body = new FormData(form)
 
-        const url = "https://script.google.com/macros/s/AKfycbzgkeoxeUHZoq9Uq9swZn5IegdScVnxlpnFG2fD9xAoQKvGuAxrPK8oR_P5LaoOPrxiGQ/exec"
+        const url = "https://script.google.com/macros/s/AKfycbyi3YuN_fTmltPLG5mm_o6xoETsL7j6tTOMOoAXjA9tZaUbfzIWxMEgNApWXRp2qzvbQQ/exec"
 
         fetch(url, {
             redirect: "follow",
@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function (){
             .then(function(response) {
               if (response) {
                 // Formulario enviado con éxito
-                alert("Formulario enviado con éxito");
+                //alert("Formulario enviado con éxito");
                 // Redirige a la página deseada
-                //window.location.href = "index.html";
+                window.location.href = "Gracias.html";
               } else {
                 // Error en el envío del formulario
                 alert("Ocurrió un error al enviar el formulario.");
